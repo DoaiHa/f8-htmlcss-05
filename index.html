@@ -30,9 +30,575 @@
      <link rel="stylesheet" href="./asset/css/reset.css">
      <!-- ---style.css----- -->
      <link rel="stylesheet" href="./asset/css/styles.css">
+     <!-- --responsive-- -->
+     <link rel="stylesheet" href="./asset/css/responsive.css">
+
 </head>
 <body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ullam nostrum reprehenderit ducimus minima veritatis velit dolorem cupiditate unde pariatur rem vitae eius tempora, vel nesciunt molestiae enim laborum. Soluta!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, ducimus harum vitae nesciunt nemo officiis deleniti explicabo quibusdam, quae ad voluptatem eveniet fugit eum molestias et odio dolores iusto. Dolore!</p>
+    <!-- ---header-- -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <!-- ---logo-- -->
+                <img src="./asset/images/icons/Logo.svg" alt="Logo Lucky" class="image__logo">
+                <!-- ---navbar---- -->
+                 <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar-items">
+                            <a href="#!" class="navbar__link">Homei</a>
+                        </li>
+                        <li class="navbar-items">
+                            <a href="#!" class="navbar__link">About</a>
+                        </li>
+                        <li class="navbar-items">
+                            <a href="#!" class="navbar__link">Services & Rates</a>
+                        </li>
+                        <li class="navbar-items">
+                            <a href="#!" class="navbar__link">Reviews</a>
+                        </li>
+                        <li class="navbar-items">
+                            <a href="#!" class="navbar__link">Contacts us</a>
+                        </li>
+                    </ul>
+                 </nav>
+                 <!-- ---btn---- -->
+                  <div class="header-action">
+                    <a href="#!" class="header-action__link">Sign in</a>
+                    <a href="#!" class=" btn header-action__btn">Sign up</a>
+                  </div>
+            </div>
+        </div>
+    </header>
+    <!-- ----hero--- -->
+     <section class="hero">
+        <div class="container">
+            <div class="hero__inner">
+                <!-- ---hero media-- -->
+                <div class="hero__media">
+                    <div class="hero__img-wrap">
+                        <img src="./asset/images/imgs/pet-01.png" alt="" class="hero__img">
+                        <!-- --decorator-- -->
+                         <img src="./asset/images/imgs/layout-02.svg" alt="" class="hero__decor hero__decor--left">
+                         <img src="./asset/images/imgs/layout-01.svg" alt="" class="hero__decor hero__decor--top">
+                    </div>
+                    <div class="hero__img-wrap hero__img-wrap--small">
+                        <img src="./asset/images/imgs/pet-02.png" alt="" class="hero__img hero__img--small">
+                    </div>
+                    <div class="hero__list">
+                        <!-- ----1--- -->
+                        <div class="hero__list--item">
+                            <img src="./asset/images/imgs/pet-03.png" alt="" class="hero__list--item__thumb">
+                            <div class="hero__list--item__info">
+                                <p class="hero__list-item__title">Pet Health</p>
+                                <div class="hero__list--item__skeleton"></div>
+                                <div class="hero__list--item__skeleton dieulinh"></div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <!-- ---------2----------- -->
+                        <div class="hero__list--item">
+                            <img src="./asset/images/imgs/pet-04.png" alt="" class="hero__list--item__thumb">
+                            <div class="hero__list--item__info">
+                                <p class="hero__list-item__title">Pet care</p>
+                                <div class="hero__list--item__skeleton"></div>
+                                <div class="hero__list--item__skeleton dieulinh"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- ---hero content--- -->
+                 <section class="hero__content">
+                    <h1 class="content__heading heading">
+                        Established &
+                        Trusted Pet
+                        Care Service</h1>
+                    <p class="content__desc desc">Discover a wide variety of
+                         Pawsitive services to choose from, including daycare,
+                         private walks, office duty and spa.</p>
+                    <div class="content__list">
+                        <div class="content__list--row">
+                            <a href="#!" class="content__list--row__btn btn">Book a Meet</a>
+                            <img src="./asset/images/imgs/navigation.svg" alt="" class="content__list--row__img">
+                        </div>
+                        <a href="#!" class="content__list--title">Schedule a Call</a>
+                    </div>
+                 </section>
+
+            </div>
+        </div>
+
+     </section>
+     <main >
+        <!-- ---about-- -->
+      <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <!-- ----content--- -->
+                 <section class="about__content">
+                    <span class="about__content--sub">//  About  //</span>
+                    <h2 class="about__content--heading heading">Best Agency For
+                        Your Pet.</h2>
+                    <p class="about__content--desc desc">Lorem ipsum dolor sit amet,
+                         consectetur adipisicing elit, 
+                         sed do eiusmod tempor incididunt
+                          ut labore et dolore magna aliqua.</p>
+                    <div class="about__check--list">
+                        <span class="about__check--item">
+                            Certified Groomer
+                        </span>
+                        <span class="about__check--item">
+                            Animal Lover
+                        </span>
+                        <span class="about__check--item">
+                            14+ Years Experience
+                        </span>
+                        <span class="about__check--item">
+                            Pet Parent Of 3 Dogs
+                        </span>
+                    </div>
+                 </section>
+                <!-- ----media--   1 - -->
+                  <div class="about__media">
+                    <div class="about__card">
+                    
+                        <b class="about__card--title">20+</b>
+                        <p class="about__card--desc desc">Years Experience</p>
+                    
+                    <img src="./asset/images/icons/Union.png" alt="" class="about__card--decor">
+                    </div>
+
+                    <!-- ---about--img-- -->
+                     <figure class="about__img--wrap">
+                        <img src="./asset/images/imgs/about.png" alt="" class="about__img">
+                     </figure>
+                     <img src="./asset/images/imgs/layout3.svg" alt="" class="about__media--decor">
+                  </div>
+
+                  <!-- --------media-2------ -->
+                  <div class=""> 
+                     <div class="text__inner">
+                        <figure class="text__media--wrap">
+                            <img src="./asset/images/imgs/dog.png" alt="" class="text__media--thumb">
+                        </figure>
+                        <img src="./asset/images/imgs/01.png" alt="" class="about__media--img one">
+                        <img src="./asset/images/imgs/02.png" alt="" class="about__media--img two">
+                        <img src="./asset/images/imgs/03.png" alt="" class="about__media--img three">
+                        <img src="./asset/images/imgs/04.png" alt="" class="about__media--img for">
+                        <img src="./asset/images/imgs/05.png" alt="" class="about__media--img five">
+                        <img src="./asset/images/imgs/circle.png" alt="" class="about__media--img six">
+                     </div>
+
+                  </div>
+                <!-- ----content--2--- -->
+                  <section class="feature__content">
+                    <div class="feature__inner">
+                        <h2 class="feature__heading heading">Taking A Vacation?
+                            So Is Your Pet.</h2>
+                        <p class="feature__desc desc">We offer long-term and short-term boarding. Every dog has its own private, spacious room and daily individual time in our large play yard.</p>
+                        <div class="feature__row">
+                            <!-- --------1-------- -->
+                            <div class="feature__row--list">
+                                <img src="./asset/images/imgs/home-2.png" alt="" class="feature__row--img">
+                                <b class="feature__row--title">Pet Boarding</b>
+                            </div>
+                            <!-- ----------------2----------- -->
+                            <div class="feature__row--list">
+                                <img src="./asset/images/imgs/home-2.png" alt="" class="feature__row--img">
+                                <b class="feature__row--title">Pet Daycare</b>
+                            </div>
+                            <!-- ----------------------3------------------ -->
+                            <div class="feature__row--list">
+                                <img src="./asset/images/imgs/home-2.png" alt="" class="feature__row--img">
+                                <b class="feature__row--title">Pet Transport</b>
+                            </div>
+                        </div>
+                        <div class="feature__line line"></div>
+                        <p class="feature__title desc">While you're on holiday, here's where your furry friends will spend their time.</p>
+                        <a href="#!" class="feature__more">View more</a>
+                    </div>
+                  </section>
+
+
+            </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+            <section class="service__header">
+                <p class="service__header--desc desc">What we do for you?</p>
+                <h2 class="service__header--heading heading">Our Services</h2>
+            </section>
+            <div class="service__body">
+                <div class="service__column--one">
+                    <article class="service__item">
+                        <h3 class="service__heading">Puppy Sitting</h3>
+                        <p class="service__desc desc">Helping your new pup to be a good boy or girl isn’t always easy, but we’re here to help.</p>
+                        <div class="service__row">
+                            <a href="#!" class="service__row--item">Read More</a>
+                        </div>
+                    </article>
+                    <!-- ------1-------   -->
+                    <article class="service__item">
+                        <h3 class="service__heading">Puppy Sitting</h3>
+                        <p class="service__desc desc">Helping your new pup to be a good boy or girl isn’t always easy, but we’re here to help.</p>
+                        <div class="service__row">
+                            <a href="#!" class="service__row--item">Read More</a>
+                        </div>
+                    </article>
+                    <!-- -------2-------------- -->
+                    <article class="service__item">
+                        <h3 class="service__heading">Puppy Sitting</h3>
+                        <p class="service__desc desc">Helping your new pup to be a good boy or girl isn’t always easy, but we’re here to help.</p>
+                        <div class="service__row">
+                            <a href="#!" class="service__row--item">Read More</a>
+                        </div>
+                    </article>
+
+                </div>
+                <div class="service__column--two">
+                    <img src="./asset/images/imgs/bun.png" alt="" class="service__column--img">
+                    <a href="#!" class="service__column--btn  btn">View All Services</a>
+                    
+                </div>
+                <div class="service__column--three">
+                    <article class="service__item">
+                        <h3 class="service__heading">Puppy Sitting</h3>
+                        <p class="service__desc desc">Helping your new pup to be a good boy or girl isn’t always easy, but we’re here to help.</p>
+                        <div class="service__row">
+                            <a href="#!" class="service__row--item">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="service__item">
+                        <h3 class="service__heading">Puppy Sitting</h3>
+                        <p class="service__desc desc">Helping your new pup to be a good boy or girl isn’t always easy, but we’re here to help.</p>
+                        <div class="service__row">
+                            <a href="#!" class="service__row--item">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="service__item">
+                        <h3 class="service__heading">Puppy Sitting</h3>
+                        <p class="service__desc desc">Helping your new pup to be a good boy or girl isn’t always easy, but we’re here to help.</p>
+                        <div class="service__row">
+                            <a href="#!" class="service__row--item">Read More</a>
+                        </div>
+                    </article>
+                    
+                </div>
+
+            </div>
+        </div>
+      </section>
+<!-- ----------team---- -->
+      <section class="team">
+        <div class="container">
+            <div class="team__inner">
+                <section class="team__header">
+                    <p class="team__header--desc">Pet Care Staff</p>
+                    <h2 class="team__header--heading heading">Meet Our Groomers</h2>
+                </section>
+                <div class="teams__list">
+                    <!-- ---1--   -->
+                    <div class="team__item">
+                        <img src="./asset/images/imgs/face.png" alt="" class="team__item--image">
+                        <p class="team__item--desc">Pet Trainer</p>
+                        <h3 class="team__item--name">Meghan Samit</h3>
+                    </div>
+                    <!-- ---2--  -->
+                    <div class="team__item">
+                        <img src="./asset/images/imgs/face-01.png" alt="" class="team__item--image">
+                        <p class="team__item--desc">Pet Trainer</p>
+                        <h3 class="team__item--name">Meghan Samit</h3>
+                    </div>
+                    <!-- ----3---  -->
+                    <div class="team__item">
+                        <img src="./asset/images/imgs/face-02.png" alt="" class="team__item--image">
+                        <p class="team__item--desc">Pet Trainer</p>
+                        <h3 class="team__item--name">Meghan Samit</h3>
+                    </div>
+                    <!-- -----4-----  -->
+                    <div class="team__item">
+                        <img src="./asset/images/imgs/face-03.png" alt="" class="team__item--image">
+                        <p class="team__item--desc">Pet Trainer</p>
+                        <h3 class="team__item--name">Meghan Samit</h3>
+                    </div>
+                </div>
+                <div class="team__item-btn">
+                    <a href="#!" class="team__item--btn btn">View All Team</a>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <!-- -----best--- -->
+       <section class="best">
+        <div class="container">
+            <div class="best__inner">
+                <!-- best__header -->
+                <section class="best__header">
+                    <h2 class="best__header__heading heading">The Best Choice</h2>
+                    <p class="best__header__desc desc">We offer long-term and short-term boarding. Every dog has its own private, spacious room and daily individual time in our large play yard.</p>
+                    <div class="best__list">
+                        <div class="best__list--item">
+                            <a href="#!" class="best__list--item-btn btn">Monthly</a>
+                        </div>
+                        <figure>
+                            <img src="./asset/images/imgs/save.png" alt="" class="best__list--item__img">
+                        </figure>
+                    </div>
+                </section>
+                <!-- -----best__content.// -->
+                 <section class="best__content">
+                        <div class="best__content--row">
+                            <!-- --------1-------------- -->
+                            <div class="best__row--list">
+                                <span class="one">Basic</span>
+                                <p class="best__row-title">Day care</p>
+                                <p class="best__row--heading heading">$150</p>
+                                <a href="#!" class="best__row--btn btn">Purchase Now</a>
+                                <ul class="best__row--lists">
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                </ul>
+                            </div>
+                            <!-- ------------2----------------- -->
+                            <div class="best__row--list">
+                                <span class="one">Basic</span>
+                                <p class="best__row-title">Day care</p>
+                                <p class="best__row--heading heading">$150</p>
+                                <a href="#!" class="best__row--btn btn">Purchase Now</a>
+                                <ul class="best__row--lists">
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                </ul>
+                            </div>
+                            <!-- -------------3//////// -->
+                            <div class="best__row--list">
+                                <span class="one">Basic</span>
+                                <p class="best__row-title">Day care</p>
+                                <p class="best__row--heading heading">$150</p>
+                                <a href="#!" class="best__row--btn btn">Purchase Now</a>
+                                <ul class="best__row--lists">
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                    <li class="item">Single room</li>
+                                </ul>
+                            </div>
+                    </div>
+                 </section>
+            </div>
+        </div>
+       </section>
+
+       <!-- ----Reviews---- -->
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews__inner">
+                        <img src="./asset/images/imgs/ArrowRight.svg" alt="" class="reviews__images reviews__images--left">
+                    <figure class="reviews__media">
+                        <img src="./asset/images/imgs/review__media.png" alt="" class="reviews__media--img">
+                    </figure>
+                    <section class="reviews__content">
+                        <h2 class="reviews__content--heading heading">Our Reviews</h2>
+                        <p class="reviews__content--desc desc">“It was very comforting to recieve a text and pics each day about our pets and how they were doing. It was also nice that my pets were in the comfortable environment of their own home and received playfull attention from our pet sitters as well. Thanks so much!”</p>
+                        <span class="reviews__content--name">Karla Deras</span>
+                    </section>
+                    
+                    <img src="./asset/images/imgs/review_right.svg" alt="" class="reviews__images reviews__images--right">                   
+                    
+                </div>
+                <div class="reviews__row">
+                    <div class="review__row--line"> 
+                    </div>
+                    <div class="review__row--list">
+                        <div class="review__row--item">
+                            <a href="#!"></a>
+                        </div>
+                        <div class="review__row--item">
+                            <a href="#!"></a>
+                        </div>
+                        <div class="review__row--item">
+                            <a href="#!"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- -----blogs----- -->
+         <section class="blogs">
+            <div class="container">
+                <div class="blogs__inner">
+                    <div class="blogs__header">
+                        <div class="blogs__header--heading heading">Our Blog</div>
+                        <div class="header__view">
+                            <p class="header__view--desc desc">Stay up to date with the latest tech trands and news in the pets.</p>
+                            <a href="#!" class="header__view--btn btn">View All Blog</a>
+                        </div>
+                    </div>
+                    <div class="blogs__content">
+                        <div class="blogs__lists">
+                            <!-- ---1---  -->
+                            <div class="blogs__item">
+                                <figure class="blog__item--image">
+                                <img src="./asset/images/imgs/bmw.jpg" alt="" class="blogs__item--img">
+                                </figure>
+                                <div class="blogs__item--content">
+                                    <h3 class="blogs__content--heading">Building Bonds and Trusting Relationships with Your Pets.</h3>
+                                    <p class="blogs__content--desc desc">There isn’t a relationship around that can survive without trust. My relationship with my dog Peyton is deep...</p>  
+                                </div>
+                                </div>
+                            <!-- ---2---  -->
+                            <div class="blogs__item">
+                                <figure class="blog__item--image">
+                                <img src="./asset/images/imgs/maxresdefault.jpg" alt="" class="blogs__item--img">
+                                </figure>
+                                <div class="blogs__item--content">
+                                    <h3 class="blogs__content--heading">Building Bonds and Trusting Relationships with Your Pets.</h3>
+                                    <p class="blogs__content--desc desc">There isn’t a relationship around that can survive without trust. My relationship with my dog Peyton is deep...</p>  
+                                </div>
+                            </div>
+                            <!-- ---3---  -->
+                            <div class="blogs__item">
+                                <figure class="blog__item--image">
+                                <img src="./asset/images/imgs/bmw1.jpg" alt="" class="blogs__item--img">
+                                </figure>
+                                <div class="blogs__item--content">
+                                    <h3 class="blogs__content--heading">Building Bonds and Trusting Relationships with Your Pets.</h3>
+                                    <p class="blogs__content--desc desc">There isn’t a relationship around that can survive without trust. My relationship with my dog Peyton is deep...</p>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+         </section>
+     </main>
+     <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__lucky">
+                <!-- --logo--  -->
+                <img src="./asset/images/icons/Logo.svg" alt="" class="footer__lucky--logo">
+                <!-- ---mail-- -->
+                 <p class="footer__lucky--desc">Follow Us</p>
+                 <div class="form-group">
+                    <label for="first-name" class="form-label"></label>
+                    <input
+                      type="text"
+                      id="first-name"
+                      class="form-input"
+                      placeholder="Enter your email"
+                    />
+                </div>
+                 <figure class="footer__icons">
+                    <img src="./asset/images/imgs/fb.svg" alt="" class="footer__icons--img">
+                    <img src="./asset/images/imgs/fb.svg" alt="" class="footer__icons--img">
+                    <img src="./asset/images/imgs/fb.svg" alt="" class="footer__icons--img">
+                    <img src="./asset/images/imgs/fb.svg" alt="" class="footer__icons--img">
+                 </figure>
+            </div>
+            <div class="footer__content">
+                <div class="footer__list">
+                    <!-- ....1....  -->
+                    <div class="footer__item">
+                        <h3 class="footer__item--heading">Explore</h3>
+                        <ul class="footer__item--row">
+                            <li>
+                                <a href="#!">About us</a>
+                            </li>
+                            <li>
+                                <a href="#!">Services                                    us</a>
+                            </li>
+                            <li>
+                                <a href="#!">Our Team                          </a>
+                            </li>
+                            <li>
+                                <a href="#!">Adopt Pet </a>
+                            </li>
+                        </ul>
+                    </div>
+                     <!-- ....2....  -->
+                     <div class="footer__item">
+                        <h3 class="footer__item--heading">Useful links</h3>
+                        <ul class="footer__item--row">
+                            <li>
+                                <a href="#!">FAQs                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">Shop                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">Privacy Policy                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">Terms of Use                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">Site Map                               </a>
+                            </li>
+                        </ul>
+                    </div>
+                     <!-- ....3....  -->
+                     <div class="footer__item">
+                        <h3 class="footer__item--heading">Contact Info</h3>
+                        <ul class="footer__item--row">
+                            <li>
+                                <a href="#!">abc@gmail.com                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">0 (800)-000-00-00                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">New York, NY, Rocawy 7</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                     <!-- ....4....  -->
+                     <div class="footer__item">
+                        <h3 class="footer__item--heading">Opening Time</h3>
+                        <ul class="footer__item--row">
+                            <li>
+                                <a href="#!">Mon – Fri : 08.00 am – 20.00 pm                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">Saturday : 09.00 am – 20.00 pm                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">Sunday: We are Closed</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <span class="footer__copyright desc">
+                    Copyright & Design By Uihut
+                </span>
+            </div>
+
+        </div>
+
+     </footer>
+
 </body>
 </html>
